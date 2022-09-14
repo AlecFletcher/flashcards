@@ -10,7 +10,7 @@
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="https://gyazo.com/003df557c6447c996848d52a3d748c7e" width=200><br>
+<img src="https://im3.ezgif.com/tmp/ezgif-3-9cacabe06c.gif" width=200><br>
 
 `TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
