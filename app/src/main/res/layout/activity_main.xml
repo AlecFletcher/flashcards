@@ -18,50 +18,26 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/fake_answer1"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:layout_below="@id/flashcard_question"
-        android:background="@drawable/secondary_color_shape"
-        android:text="Bill Clinton"
-        android:textAlignment="center"
-        android:textSize="40sp"
-        android:visibility="invisible"/>
-
-    <TextView
-        android:id="@+id/fake_answer2"
-        android:layout_marginBottom="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:layout_below="@id/fake_answer1"
-        android:background="@drawable/secondary_color_shape"
-        android:text="George H. W. Bush"
-        android:textAlignment="center"
-        android:textSize="40sp"
-        android:visibility="invisible"/>
-
-    <TextView
         android:id="@+id/flashcard_answer"
-
         android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:layout_below="@id/fake_answer2"
+        android:layout_height="200dp"
         android:background="@drawable/secondary_color_shape"
         android:text="Barack Obama"
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible"/>
 
-    <Button
-        android:id="@+id/hideOrShowAnswers"
-        android:layout_below="@id/flashcard_answer"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_question_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="Show Answers" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
 
 </RelativeLayout>
