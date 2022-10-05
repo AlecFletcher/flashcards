@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GithubRepositories/flashcards/app/src/main/res/drawable/solid_color_shape.xml" value="0.4" />
+        <entry key="..\:/GithubRepositories/flashcards/app/src/main/res/layout/activity_add_card.xml" value="0.2674772036474164" />
+        <entry key="..\:/GithubRepositories/flashcards/app/src/main/res/layout/activity_main.xml" value="0.26268115942028986" />
         <entry key="..\:/Users/alec_/AndroidStudioProjects/Flashcards/app/src/main/res/drawable/red_background_rectange.xml" value="0.215" />
         <entry key="..\:/Users/alec_/AndroidStudioProjects/Flashcards/app/src/main/res/drawable/right_answer_rectangle.xml" value="0.215" />
         <entry key="..\:/Users/alec_/AndroidStudioProjects/Flashcards/app/src/main/res/drawable/secondary_color_shape.xml" value="0.215" />
