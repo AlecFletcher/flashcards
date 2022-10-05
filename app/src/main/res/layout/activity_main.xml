@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/solid_color_shape"
-        android:text="Who is the 44th President of the United States?"
+        android:text=""
         android:textAlignment="center"
         android:textSize="40sp" />
 
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="@drawable/secondary_color_shape"
-        android:text="Barack Obama"
+        android:text=""
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible"/>
@@ -39,6 +39,26 @@
         android:layout_marginRight="10dp"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next_flashcard_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleX="-1"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/deleteFlashcard"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
 
 
 </RelativeLayout>
