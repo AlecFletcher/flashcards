@@ -85,16 +85,11 @@ class MainActivity : AppCompatActivity() {
                 question.text = ""
                 answer.text = ""
             }
-            else if(allFlashcards.size == 1){
-                flashcardIndex = 0
-                question.text = allFlashcards[flashcardIndex].question
-                answer.text = allFlashcards[flashcardIndex].answer
-            }
             else {
                 fun getRandom(minNumber: Int, maxNumber: Int) {
                     flashcardIndex = Random.nextInt(minNumber, maxNumber)
                 }
-                getRandom(0, allFlashcards.size-1)
+                getRandom(0, allFlashcards.size)
                 question.text = allFlashcards[flashcardIndex].question
                 answer.text = allFlashcards[flashcardIndex].answer
             }
