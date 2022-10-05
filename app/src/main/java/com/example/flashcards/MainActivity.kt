@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
                 fun getRandom(minNumber: Int, maxNumber: Int) {
                     flashcardIndex = Random.nextInt(minNumber, maxNumber)
                 }
-                getRandom(0, allFlashcards.size)
+                getRandom(0, allFlashcards.size-1)
                 question.text = allFlashcards[flashcardIndex].question
                 answer.text = allFlashcards[flashcardIndex].answer
             }
