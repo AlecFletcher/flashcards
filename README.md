@@ -8,7 +8,7 @@ Flashcard app that allows the user to add cards, cycle through cards, and delete
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="https://media.giphy.com/media/EwyG6zdV3kHlslzMBW/giphy.gif" width=200><br>
+<img src="https://media.giphy.com/media/M19FgL8gZQB9FYS0qw/giphy.gif" width=200><br>
 
 ## Required
 - [X] User can create a card and still see their created card when the app is relaunched.
