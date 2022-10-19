@@ -18,6 +18,7 @@ class AddCardActivity : AppCompatActivity() {
 
         cancel_button.setOnClickListener{
             finish()
+            overridePendingTransition(R.anim.left_in, R.anim.right_out);
         }
 
         val questionEditText = findViewById<EditText>(R.id.entered_question)
@@ -36,6 +37,7 @@ class AddCardActivity : AppCompatActivity() {
 
             setResult(RESULT_OK, data)
             finish()
+            overridePendingTransition(R.anim.left_in, R.anim.right_out);
         }
     }
     }
