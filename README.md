@@ -7,7 +7,7 @@
 Flashcard app that allows the user to add cards, cycle through cards, and delete cards from a database. 
 
 ### App Walk-though
-<img src="https://giphy.com/gifs/b5Jfhkeq8Ys5MkDuf0" width=200><br>
+<img src="https://media.giphy.com/media/b5Jfhkeq8Ys5MkDuf0/giphy.gif" width=200><br>
 
 ## Required
 - [X] User sees a transition animation when going from the main screen to the add card screen.
